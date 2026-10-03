@@ -34,7 +34,6 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <span>© 2026 SSB Car Rentals. All Rights Reserved.</span>
-          <span className="muted">Payments on this demo site are simulated.</span>
         </div>
       </div>
     </footer>
