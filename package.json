@@ -1,0 +1,15 @@
+{
+  "name": "ssb-car-rentals",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SSB CAR RENTALS — full-stack car rental platform (React + Express + PostgreSQL)",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix backend test"
+  }
+}
