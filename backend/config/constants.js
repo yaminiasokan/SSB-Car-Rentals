@@ -25,7 +25,7 @@ const REMOVED_MODELS = [/altroz/i, /duster/i];
 
 const ECO_SCORES = { Petrol: 65, Diesel: 55, CNG: 80, 'Petrol + CNG': 75 };
 
-const TAX_RATE = 0.12; // GST — demo default
+const TAX_RATE = 0.05; // GST
 const MIN_RENTAL_HOURS = 4;
 const HOLD_MINUTES = 30; // how long an unpaid (pending) booking blocks a vehicle
 const MAX_KM_PER_DAY = 300; // fair-usage limit; scales with the number of rental days
