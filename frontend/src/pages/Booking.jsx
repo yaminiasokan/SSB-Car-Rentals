@@ -240,7 +240,7 @@ export default function Booking() {
                 {!pricing && !quoteError && <Loader label="Calculating…" />}
                 {pricing && <PriceBreakdown pricing={pricing} />}
                 <div className="promo mt-2">
-                  <Field label="Promo or reward code" error={promoError} hint={cfg.data ? `Try ${cfg.data.promos.map((p) => p.code).join(', ')} — or a reward coupon (SSBR-…) from your Rewards page.` : undefined}>
+                  <Field label="Promo or reward code" error={promoError}>
                     <div className="row"><input className="input" value={promoInput} onChange={(e) => { setPromoInput(e.target.value); setPromoError(''); }} placeholder="e.g. SSB10" style={{ textTransform: 'uppercase' }} />
                       <button className="btn btn-outline" onClick={applyPromo}><Tag size={16} /> Apply</button></div>
                   </Field>
